@@ -1,0 +1,64 @@
+.ai-banner {
+  height: 48px;
+  border-radius: 10px;
+  padding: 0 22px;
+  color: #222;
+  font-family: "Noto Sans TC", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-image: url('../img/banner.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* 關鍵：讓背景圖片遵守圓角 */
+  overflow: hidden;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+  border: 1px solid rgba(255,255,255,0.3);
+  margin-bottom: 10px;
+}
+
+/* 柔和漸層遮罩 */
+/*.ai-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(40, 40, 40, 0.7),
+    rgba(90, 90, 90, 0.4)
+  );
+  backdrop-filter: blur(2px);
+  z-index: 0;
+}*/
+
+/* 提升層級 */
+.ai-banner-text, .ai-banner-links {
+  position: relative;
+  z-index: 1;
+}
+
+/* 左側標題 */
+.ai-banner-text h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin: 0;
+  color: #f9f9f9; /* 深色文字在黃底更清晰 */
+  text-shadow: none;
+}
+
+/* 右側連結 */
+.ai-banner-links a {
+  color: #f9f9f9;
+  font-weight: 600;
+}
+
+.ai-banner-links a:hover {
+  color: #ffd966; /* 柔金色點亮 */
+  text-shadow: 0 0 6px rgba(255,217,102,0.6);
+}

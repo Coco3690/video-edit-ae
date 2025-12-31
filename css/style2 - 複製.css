@@ -1,0 +1,77 @@
+  .email-link {
+    margin-right: 10px; /* 調整空間大小 */
+  }
+  
+  
+/* 滑鼠移入時播放 */
+.video-preview {
+  width: 100%;
+  height: auto;
+  display: block;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.tm-fullscreen-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+  padding: 4px 6px;
+  font-size: 20px;
+}
+
+/* 全螢幕容器 */
+#fullscreen-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999;
+}
+
+#fullscreen-overlay video {
+  max-width: 90%;
+  max-height: 80%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* 提示文字 */
+.video-hint {
+  color: #fff;
+  font-size: 1rem;
+  margin-top: 12px;
+  font-family: "Noto Sans TC", sans-serif;
+  letter-spacing: 1px;
+  background: rgba(0,0,0,0.4);
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-align: center;
+  user-select: none;
+}
+
+#fullscreen-overlay .close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+/* 自訂標題顏色 + 行距 */
+.tm-catalog-item-title {
+    color: #2c3e50;
+	margin-bottom: 10px;
+}
+
+/* 自訂段落顏色 + 更緊湊行距 */
+.tm-catalog-item-text {
+    color: #555;
+    line-height: 1.4;       /* ↑ 稍微加大行距，讓段落更鬆 */
+    letter-spacing: 0.5px;  /* ↑ 增加字距，讓字之間更清楚 */
+}
