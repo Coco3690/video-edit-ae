@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>專業的影音剪輯創作</title>
+
+<!-- 現有樣式 -->
+<link rel="stylesheet" href="fontawesome/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style2.css">
+<link rel="stylesheet" href="css/gotop.css">
+<link rel="stylesheet" href="css/banner.css">
+<link rel="stylesheet" href="css/menu.css">
+
+<!-- Masonry Grid -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="dist/jquery.masonryGrid.js"></script>
+
+<style>
+.ai-banner {
+	max-width: 99%;
+	margin: 0 auto;   /* 置中 */
+	margin-bottom: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+<div class="tm-page-wrap mx-auto">
+  <div class="container-fluid">
+    <div id="content" class="mx-auto tm-content-container">
+      <main>
+
+<!-- 頁首 Banner -->
+<header class="ai-banner">
+  <div class="ai-banner-text">
+	<h1><i id="menuIcon" class="fa fa-list" aria-hidden="true"></i> 專業的影音剪輯創作</h1>
+  </div>
+  <div class="ai-banner-links">
+	<a href="mailto:app.coder99@gmail.com">
+	  <i class="fas fa-envelope"></i> Email
+	</a>
+	&nbsp;
+	<a href="https://page.line.me/078ntzqb" target="_blank">
+	  <i class="fab fa-line"></i> 官方 Line
+	</a>
+  </div>
+</header>
+
+<!-- 浮出選單 -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="menu-content">
+	<div class="close-btn" id="closeMenu"><i class="fa fa-times" aria-hidden="true"></i></div>
+	<a href="service1.html">賽道1</a>
+	<a href="service2.html">賽道2</a>
+	<a href="service3.html">賽道3</a>
+  </div>
+</div>
+
+        <!-- Masonry 影片區 -->
+        <div class="tm-catalog-item-list">
+          <!-- 這裡保留原本影片結構 -->
+		  
+		  
+		  
+		  
+          <div class="tm-catalog-item">
+            <div class="position-relative tm-thumbnail-container">
+              <video class="img-fluid tm-catalog-item-img video-preview" muted loop preload="auto">
+                <source src="video/DAILY.mp4" type="video/mp4">
+              </video>
+              <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+                <i class="fas fa-expand"></i>
+              </button>
+            </div>
+            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+              <h3 class="tm-text-primary tm-catalog-item-title">【DAILY】</h3>
+              <p class="tm-catalog-item-text">日常生活碎片</p>
+            </div>
+          </div>
+		  
+          <div class="tm-catalog-item">
+            <div class="position-relative tm-thumbnail-container">
+              <video class="img-fluid tm-catalog-item-img video-preview" muted loop preload="auto">
+                <source src="video/貓meme_白登&哈哈&懂王的愛恨情仇.mp4" type="video/mp4">
+              </video>
+              <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+                <i class="fas fa-expand"></i>
+              </button>
+            </div>
+            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+              <h3 class="tm-text-primary tm-catalog-item-title">【貓 meme_白登 & 哈哈 & 懂王的愛恨情仇】</h3>
+              <p class="tm-catalog-item-text">貓咪meme影片，幽默呈現白登、哈哈與懂王之間的趣味互動。</p>
+            </div>
+          </div>
+
+          <div class="tm-catalog-item">
+            <div class="position-relative tm-thumbnail-container">
+              <video class="img-fluid tm-catalog-item-img video-preview" muted loop preload="auto">
+                <source src="video/電影感片頭_對酒當歌_破碎.mp4" type="video/mp4">
+              </video>
+              <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+                <i class="fas fa-expand"></i>
+              </button>
+            </div>
+            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+              <h3 class="tm-text-primary tm-catalog-item-title">【電影感片頭_對酒當歌_破碎】</h3>
+              <p class="tm-catalog-item-text">具有電影感的片頭設計，融合對酒當歌主題與破碎視覺效果。</p>
+            </div>
+          </div>
+
+          <div class="tm-catalog-item">
+            <div class="position-relative tm-thumbnail-container">
+              <video class="img-fluid tm-catalog-item-img video-preview" muted loop preload="auto">
+                <source src="video/電影開場_為夢想再出發.mp4" type="video/mp4">
+              </video>
+              <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+                <i class="fas fa-expand"></i>
+              </button>
+            </div>
+            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+              <h3 class="tm-text-primary tm-catalog-item-title">【電影開場_為夢想再出發】</h3>
+              <p class="tm-catalog-item-text">勵志主題的電影開場影片，激發觀眾為夢想再次出發的勇氣。</p>
+            </div>
+          </div>
+
+          <div class="tm-catalog-item">
+            <div class="position-relative tm-thumbnail-container">
+              <video class="img-fluid tm-catalog-item-img video-preview" muted loop preload="auto">
+                <source src="video/電影開場片頭_NEW CINEMATIC_衝擊波.mp4" type="video/mp4">
+              </video>
+              <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+                <i class="fas fa-expand"></i>
+              </button>
+            </div>
+            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+              <h3 class="tm-text-primary tm-catalog-item-title">【電影開場片頭_NEW CINEMATIC_衝擊波】</h3>
+              <p class="tm-catalog-item-text">NEW CINEMATIC風格的電影開場片頭，搭配衝擊波特效，氣勢磅礴。</p>
+            </div>
+          </div>
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+		  
+                        <!-- 第1個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/saber插件_賽博朋克_學生證.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【saber 插件_賽博朋克_學生證】</h3>
+                                <p class="tm-catalog-item-text">使用saber插件創建的賽博朋克風格學生證效果影片，展現未來科技感。</p>
+                            </div>
+                        </div>
+						
+                        <!-- 第2個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/下雨+詩詞.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【下雨 + 詩詞】</h3>
+                                <p class="tm-catalog-item-text">結合下雨場景與優美詩詞的意境影片，營造出浪漫與感性的氛圍。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第3個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/人物摳圖+背景牆.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【人物摳圖 + 背景牆】</h3>
+                                <p class="tm-catalog-item-text">精準的人物摳圖技術結合多樣化背景牆，創造出無縫融合的視覺效果。</p>
+                            </div>
+                        </div>
+						
+                        <!-- 第4個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/光線_追隨愛心運動路徑.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【光線_追隨愛心運動路徑】</h3>
+                                <p class="tm-catalog-item-text">動態光線特效跟隨愛心形狀的運動路徑，創造浪漫迷人的視覺體驗。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第5個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/剪映_下雨+眨眼.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【剪映_下雨 + 眨眼】</h3>
+                                <p class="tm-catalog-item-text">使用剪映製作的創意影片，結合下雨特效與眨眼動畫，增添趣味性。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第6個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/剪映_下雪+初次音頻剪接.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【剪映_下雪 + 初次音頻剪接】</h3>
+                                <p class="tm-catalog-item-text">剪映製作的冬日氛圍影片，包含下雪特效與初次音頻剪接技巧展示。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第7個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/動態粒子背景.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【動態粒子背景】</h3>
+                                <p class="tm-catalog-item-text">流動的粒子背景特效，創造出科技感與動態感的視覺盛宴。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第8個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/夏日衝浪曲.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【夏日衝浪曲】</h3>
+                                <p class="tm-catalog-item-text">充滿夏日活力的衝浪主題影片，展現陽光、海浪與運動的完美結合。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第9個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/夜月之傷_音頻可視化.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【夜月之傷_音頻可視化】</h3>
+                                <p class="tm-catalog-item-text">結合夜月主題與音頻可視化技術，創造出音樂與視覺的完美融合。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第10個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/女特工+卡點.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【女特工 + 卡點】</h3>
+                                <p class="tm-catalog-item-text">女特工主題影片配合精準的音樂卡點剪輯，展現動作與節奏的完美同步。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第11個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/宜嶺科技-企業宣傳片001.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【宜嶺科技 - 企業宣傳片 001】</h3>
+                                <p class="tm-catalog-item-text">專業企業宣傳片，展示宜嶺科技的產品特色與企業形象。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第12個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/山村姑娘_圖片+唱歌.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【山村姑娘_圖片 + 唱歌】</h3>
+                                <p class="tm-catalog-item-text">山村姑娘主題影片，結合圖片展示與歌唱表演，呈現純樸鄉村風情。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第13個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/數字人+介紹衣服.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【數字人 + 介紹衣服】</h3>
+                                <p class="tm-catalog-item-text">使用數字人技術介紹服裝產品，創新展示方式提升產品吸引力。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第14個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/數字人+紙張數據效果.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【數字人 + 紙張數據效果】</h3>
+                                <p class="tm-catalog-item-text">數字人結合紙張數據特效，創造出獨特的視覺呈現方式。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第15個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/文字特效001-故障顯現字.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【文字特效 001 - 故障顯現字】</h3>
+                                <p class="tm-catalog-item-text">故障風格的文字顯現特效，創造出數位科技感的視覺衝擊。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第16個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/旅行.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【旅行】</h3>
+                                <p class="tm-catalog-item-text">旅行主題影片，記錄旅途中的美景與感動時刻。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第17個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/日夜交替_UI風動畫.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【日夜交替_UI 風動畫】</h3>
+                                <p class="tm-catalog-item-text">UI風格的日夜交替動畫，展現時間流轉的美感與設計感。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第18個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/春運vlog-追蹤+動態圖標.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【春運 vlog - 追蹤 + 動態圖標】</h3>
+                                <p class="tm-catalog-item-text">春運主題vlog，結合追蹤攝影與動態圖標，記錄春節返鄉的點滴。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第19個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/曲奇餅乾+數字人.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【曲奇餅乾 + 數字人】</h3>
+                                <p class="tm-catalog-item-text">曲奇餅乾產品展示結合數字人介紹，創新食品推廣方式。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第20個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/水波紋+懸浮文字穿梭.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【水波紋 + 懸浮文字穿梭】</h3>
+                                <p class="tm-catalog-item-text">水波紋特效與懸浮文字穿梭動畫，創造出流動感的視覺體驗。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第21個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/湍流置換_奶茶動畫.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【湍流置換_奶茶動畫】</h3>
+                                <p class="tm-catalog-item-text">湍流置換特效應用於奶茶動畫，創造出獨特的液體流動視覺效果。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第22個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/照片下落+運鏡.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【照片下落 + 運鏡】</h3>
+                                <p class="tm-catalog-item-text">照片下落動畫配合流暢的運鏡技巧，展現回憶與時光的流轉。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第23個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/簡易關鍵幀動畫_車子超車.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【簡易關鍵幀動畫_車子超車】</h3>
+                                <p class="tm-catalog-item-text">使用關鍵幀動畫技術製作的車子超車場景，展現動態效果與節奏感。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第24個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/紀錄美好生活_花卉.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【紀錄美好生活_花卉】</h3>
+                                <p class="tm-catalog-item-text">花卉主題的生活紀錄影片，捕捉自然之美與生活情趣。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第25個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/自拍集錦動畫.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【自拍集錦動畫】</h3>
+                                <p class="tm-catalog-item-text">自拍照片集錦動畫，展現個人風格與生活點滴。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第26個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/貓meme_白登&哈哈&懂王的愛恨情仇.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【貓 meme_白登 & 哈哈 & 懂王的愛恨情仇】</h3>
+                                <p class="tm-catalog-item-text">貓咪meme影片，幽默呈現白登、哈哈與懂王之間的趣味互動。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第27個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/電影感片頭_對酒當歌_破碎.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【電影感片頭_對酒當歌_破碎】</h3>
+                                <p class="tm-catalog-item-text">具有電影感的片頭設計，融合對酒當歌主題與破碎視覺效果。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第28個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/電影開場_為夢想再出發.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【電影開場_為夢想再出發】</h3>
+                                <p class="tm-catalog-item-text">勵志主題的電影開場影片，激發觀眾為夢想再次出發的勇氣。</p>
+                            </div>
+                        </div>
+
+                        <!-- 第29個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/電影開場片頭_NEW CINEMATIC_衝擊波.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【電影開場片頭_NEW CINEMATIC_衝擊波】</h3>
+                                <p class="tm-catalog-item-text">NEW CINEMATIC風格的電影開場片頭，搭配衝擊波特效，氣勢磅礴。</p>
+                            </div>
+                        </div>
+						
+						<!-- 第30個影片 -->
+                        <div class="tm-catalog-item">
+							<div class="position-relative tm-thumbnail-container">
+							  <video class="img-fluid tm-catalog-item-img video-preview" muted loop>
+								<source src="video/DAILY.mp4" type="video/mp4">
+								Your browser does not support the video tag.
+							  </video>
+							  <button class="btn btn-sm btn-primary tm-fullscreen-btn" onclick="openFullscreen(this)">
+								<i class="fas fa-expand"></i>
+							  </button>
+							</div>
+
+                            <div class="p-1 tm-bg-gray tm-catalog-item-description">
+                                <h3 class="tm-text-primary tm-catalog-item-title">【DAILY】</h3>
+                                <p class="tm-catalog-item-text">日常生活碎片</p>
+                            </div>
+                        </div>
+		  
+		  
+		  
+
+
+
+        </div><!-- /.tm-catalog-item-list -->
+
+      </main>
+    </div>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<!--<script src="js/menu.js"></script>-->
+
+<script>
+// Masonry Grid 啟用
+$(document).ready(function() {
+  $('.tm-catalog-item-list').masonryGrid({
+    columns: 3,
+    gutter: 15,
+    breakpoints: {
+      1200: 3,
+      992: 2,
+      576: 1
+    }
+  });
+
+
+});
+
+</script>
+
+
+</body>
+</html>
